@@ -14,6 +14,7 @@
   width: 105px;
   height: 32px;
 }
+
 body {
   background-color: #016a70;
 }
@@ -98,6 +99,7 @@ a {
 }
 
 .satu {
+  display: flex;
   width: 505px;
   height: 488px;
 }
@@ -129,5 +131,29 @@ a {
 }
 
 .container_2 {
-  color: #ffff;
+  background-color: #ffff;
+  padding: 74px;
+}
+
+.col-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 167px;
+  font-weight: lighter;
+}
+
+.cats {
 }
