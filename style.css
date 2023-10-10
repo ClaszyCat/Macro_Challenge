@@ -15,6 +15,10 @@
   height: 32px;
 }
 
+.green {
+  background-color: #016a70;
+}
+
 body {
   background-color: #016a70;
 }
@@ -102,6 +106,7 @@ a {
   display: flex;
   width: 505px;
   height: 488px;
+  margin-left: auto;
 }
 
 .content-1 {
@@ -152,5 +157,140 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 167px;
-  font-weight: lighter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cat_h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.col_service {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.service_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_service {
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+
+.p_section {
+  display: flex;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 16px;
+}
+
+.container_3 {
+  background-color: #ffff;
+  padding: 74px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 333px;
+  height: 432px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-direction: column;
+}
+
+.pic_product {
+  width: 100%;
+  height: 100%;
+}
+
+.product_title {
+  display: flex;
+  padding-right: 157px;
+  padding-left: 28px;
+  padding-top: 15px;
+  color: #ffff;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+.container_4 {
+  background: #ffff;
+  padding: 167px;
+}
+
+.about_us {
+  display: flex;
+}
+
+.about_us_font {
+  display: flex;
+  flex-direction: column;
+}
+
+.h3_about {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.h2_about {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about_us_pict {
+  display: flex;
+  width: 1000px;
+  height: 533px;
+}
+
+.container_5 {
+  background: #ffff;
+  padding: 167px;
+}
+
+.sponsor_pict {
+  display: flex;
+  align-items: center;
+  gap: 85px;
 }
