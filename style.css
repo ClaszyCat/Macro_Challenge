@@ -19,6 +19,10 @@
   background-color: #016a70;
 }
 
+.white {
+  background-color: #fff;
+}
+
 body {
   background-color: #016a70;
 }
@@ -276,21 +280,129 @@ h6 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding-right: 400px;
 }
 
 .about_us_pict {
   display: flex;
-  width: 1000px;
-  height: 533px;
+  width: 100%;
+  height: 100%;
 }
 
 .container_5 {
   background: #ffff;
-  padding: 167px;
+  padding: 25px;
 }
 
 .sponsor_pict {
   display: flex;
   align-items: center;
   gap: 85px;
+}
+
+.card-img {
+  width: 231px;
+  height: 231px;
+  border-color: #fff;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
+}
+
+.container_6 {
+  padding: 167px;
+  background-color: #ffff;
+}
+
+.maps {
+  width: 458px;
+  height: 403.598px;
+}
+
+.maps_section {
+  display: flex;
+}
+
+.col-maps {
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.blur {
+  width: 231px;
+  height: 231px;
+  flex-shrink: 0;
+  fill: var(--Green, #016a70);
+  filter: blur(96px);
+}
+
+.abts {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  align-items: center;
+}
+
+.maps_font {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.maps_pict {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-image: url("./assets/footer.png");
+}
+
+.row_footer {
+  color: #fff;
+  padding-left: 197px;
+  padding-right: 197px;
+  padding-bottom: 76.35px;
+  padding-top: 342px;
+}
+
+.h1_footer {
+  margin-bottom: 41px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.a_footer {
+  display: flex;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.col_fot {
+  display: flex;
+  border: #127f85;
+  border-radius: 17.5px;
+  width: auto;
+  height: auto;
+}
+
+.small_font {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
 }
