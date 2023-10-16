@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.logo-buangin {
+  width: 105px;
+  height: 32px;
+}
+
+.col {
+  font-family: Poppins;
+}
+.green {
+  background-color: #016a70;
+}
+
+.white {
+  background-color: #fff;
+}
+
+body {
+  background-color: #016a70;
+}
+
+.section {
+  background-color: #016a70;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.nav-row {
+  padding: 15px;
+  display: flex;
+  width: 1424px;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: #393e46;
+}
+
+.active {
+  color: #016a70;
+  font-weight: 600;
+}
+
+.col-row {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.col-logout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-profile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.user-img {
+  height: 60px;
+}
+
+.welcome {
+  font-weight: 600;
+}
+
+.logo-logout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.logo-out {
+  width: 36px;
+  height: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.reg {
+  width: 107px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #016a70;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.service {
+  text-align: center;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.service h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.service h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 0px;
+  color: #ffffdd;
+}
+
+.gambar {
+  display: flex;
+  gap: 100px;
+  font-family: Poppins;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar h3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  width: 200px;
+}
+
+.program1 {
+  background-color: white;
+  display: flex;
+  gap: 50px;
+  margin-top: 200px;
+}
+
+.youtube-video {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.text-video {
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.text-video h3 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.text-video h6 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.program2 {
+  background-color: white;
+  display: flex;
+  gap: 50px;
+}
+
+.program3 {
+  background-color: white;
+  display: flex;
+  gap: 50px;
+  padding-bottom: 200px;
+}
+
+.bawah img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.h1_footer {
+  margin-bottom: 41px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.a_footer {
+  display: flex;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.col_fot {
+  display: flex;
+  border: #127f85;
+  border-radius: 17.5px;
+  width: auto;
+  height: auto;
+}
+
+.small_font {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.footer_display {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.mb-3 {
+  color: #fff;
+}
