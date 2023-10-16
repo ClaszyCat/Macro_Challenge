@@ -1,0 +1,7 @@
+.bck {
+    position: fixed;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+  }
+}
