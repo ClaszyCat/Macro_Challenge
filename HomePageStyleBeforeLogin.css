@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  font-family: Poppins;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.logo-buangin {
+  width: 105px;
+  height: 32px;
+}
+
+.green {
+  background-color: #016a70;
+}
+
+.white {
+  background-color: #fff;
+}
+
+body {
+  background-color: #016a70;
+}
+
+.section {
+  background-color: #016a70;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.col-regis {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-row {
+  padding: 15px;
+  display: flex;
+  width: 1424px;
+  height: 90px;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: #393e46;
+}
+
+.active {
+  color: #016a70;
+  font-weight: 600;
+}
+
+.col-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col-logout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-profile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.user-img {
+  height: 60px;
+}
+
+.welcome {
+  font-weight: 600;
+}
+
+.logo-logout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.logo-out {
+  width: 36px;
+  height: 36px;
+}
+
+.button-detail {
+  display: flex;
+  padding: 8px 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--White, #fff);
+  background-color: #016a70;
+}
+
+.satu {
+  display: flex;
+  width: 505px;
+  height: 488px;
+  margin-left: auto;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.white-font {
+  color: white;
+}
+
+.cream-fonts {
+  color: var(--Cream, #ffd);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#folks {
+  font-size: 28px;
+}
+
+#lorem {
+  font-size: 16px;
+}
+
+.container_2 {
+  background-color: #ffff;
+  padding: 74px;
+}
+
+.col-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 167px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cat_h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.col_service {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.service_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_service {
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+
+.p_section {
+  display: flex;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 16px;
+}
+
+.container_3 {
+  background-color: #ffff;
+  padding: 74px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 333px;
+  height: 432px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-direction: column;
+}
+
+.pic_product {
+  width: 100%;
+  height: 100%;
+}
+
+.product_title {
+  display: flex;
+  padding-right: 157px;
+  padding-left: 28px;
+  padding-top: 15px;
+  color: #ffff;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+.container_4 {
+  background: #ffff;
+  padding: 167px;
+}
+
+.about_us {
+  display: flex;
+}
+
+.about_us_font {
+  display: flex;
+  flex-direction: column;
+}
+
+.h3_about {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.h2_about {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-right: 400px;
+}
+
+.about_us_pict {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.container_5 {
+  background: #ffff;
+  padding: 25px;
+}
+
+.sponsor_pict {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+
+.card-img {
+  width: 231px;
+  height: 231px;
+  border-color: #fff;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
+}
+
+.container_6 {
+  padding: 167px;
+  background-color: #ffff;
+}
+
+.maps {
+  width: 458px;
+  height: 403.598px;
+}
+
+.maps_section {
+  display: flex;
+}
+
+.col-maps {
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.blur {
+  width: 231px;
+  height: 231px;
+  flex-shrink: 0;
+  fill: var(--Green, #016a70);
+  filter: blur(96px);
+}
+
+.abts {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  align-items: center;
+}
+
+.maps_font {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.maps_pict {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .row_footer {
+  color: #fff;
+  padding-left: 197px;
+  padding-right: 197px;
+  padding-bottom: 76.35px;
+  padding-top: 342px;
+} */
+
+.h1_footer {
+  margin-bottom: 41px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.a_footer {
+  display: flex;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.col_fot {
+  display: flex;
+  border: #127f85;
+  border-radius: 17.5px;
+  width: auto;
+  height: auto;
+}
+
+.small_font {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.footer_display {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.mb-3 {
+  color: #fff;
+}
