@@ -1,6 +1,15 @@
-.bck {
-  position: fixed;
-  z-index: -1;
-  height: 50px;
-  width: 50px;
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500;
+  border-radius: 20px;
+}
+
+.acc {
+  display: flex;
+}
+
+.col-box {
+  display: flex;
 }
