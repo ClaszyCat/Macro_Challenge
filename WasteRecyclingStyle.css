@@ -285,3 +285,8 @@ a {
 .mb-3 {
   color: #fff;
 }
+
+.white-footer {
+  height: 100px;
+  background-color: white;
+}

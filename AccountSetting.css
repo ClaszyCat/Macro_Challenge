@@ -1,19 +1,111 @@
+.logo_master {
+  width: 150px;
+  height: 44.938px;
+  margin-top: 37px;
+  margin-bottom: 246px;
+  margin-left: 69px;
+}
+
+.title-text {
+  color: var(--Green, #016a70);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 72px;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.green {
+  background-color: var(--Green, #016a70);
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 120px;
+}
+
+.white {
+  background-color: white;
+  margin-bottom: 100px;
+}
+
 .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 500;
-  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+  margin-top: -300px;
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin-top: -80px;
 }
 
-.acc {
-  display: flex;
+.account {
+  padding: 10%;
+  padding-bottom: 30px;
 }
 
-.col-box {
+.buttons {
+  margin-top: 50px;
+}
+
+.buttons1 {
   display: flex;
+  justify-content: flex-end;
+}
+
+.buttons2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cancle {
+  background-color: white;
+  border: none;
+  color: grey;
+}
+
+.update {
+  border-radius: 8px;
+  background: var(--Green, #016a70);
+  border: none;
+}
+
+.delete {
+  margin-top: 100px;
+  color: var(--Green, #016a70);
+}
+
+.siteitems {
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.uphoto {
+  width: 269.848px;
+  height: 274px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  border: 1px dashed #4c535f;
+  background: #fafbfc;
+}
+
+.imgupload {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
 }

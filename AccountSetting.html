@@ -12,46 +12,46 @@
     <title>AccountSetting</title>
   </head>
   <body>
-    <div>
-      <img
-        src="./assets/green-bar.png"
-        style="height: 25vh; width: 100%"
-        alt="background" />
-    </div>
-    <div class="box">
-      <div>
-        <div>
-          <h1 class="acc">Account Settings</h1>
+    <section class="navbar green">
+      <div class="col">
+        <img class="logo_master" src="./assets/Buangin_white.png" alt="logo-buangin">
+      </div>
+    </section>
+    <section class="white">
+      <div class="container">
+        <div class="box account">
+          <div class="row">
+            <div class="col-7"><h1 class="title-text">Account Settings</h1></div>
+          </div>
+          <div class="row">
+            <div class="col-7"><label>Your Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+            </div>
+            <div class="col-7"><label>Email Address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="col-7"><label>Password</label>
+              <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="***********">
+              <strong><p class="delete">Delete Your Account</p></strong>
+              <p>You will recive an email to confirm your decision. Please note, that all boards you have created will be permanently erased</p>
+            </div>
+            <div class="col siteitems">
+              <div class="div imgupload">
+                <img class="uphoto" src="./assets/upload-photo.png">
+              </div>
+              <div class="div upload">
+                <button type="button " class="btn btn-primary update">Upload Image</button>
+              </div>
+            </div>
+          </div>
+          <div class="row buttons">
+            <div class="col buttons1"><button type="button " class="btn btn-primary cancle">Cancel</button></div>
+            <div class="col buttons2"><button type="button " class="btn btn-primary update">Update Profile</button></div>
+          </div>
         </div>
       </div>
-      <div class="col col-box">
-        <div class="ms-5 me-5 mb-2">
-          <label
-            for="formGroupExampleInput"
-            class="form-label"
-            style="font-weight: bold"
-            >Email</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="formGroupExampleInput"
-            placeholder="Example@email.com" />
-        </div>
-        <div class="ms-5 me-5 mb-2">
-          <label
-            for="formGroupExampleInput2"
-            class="form-label"
-            style="font-weight: bold"
-            >Password</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="formGroupExampleInput2"
-            placeholder="********" />
-        </div>
-      </div>
+    </section>
+
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
