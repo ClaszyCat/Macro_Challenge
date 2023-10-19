@@ -29,7 +29,6 @@ body {
 .nav {
   display: flex;
   flex-direction: column;
-  background-color: white;
   border-radius: 20px;
 }
 
@@ -38,9 +37,8 @@ body {
   display: flex;
   width: 1424px;
   align-items: center;
+  background-color: white;
   border-radius: 20px;
-  background: var(--White, #fff);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 a {
@@ -192,7 +190,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 35px;
-  margin-bottom: -120px;
+  margin-bottom: -100px;
 }
 
 .service_column {
@@ -316,7 +314,7 @@ h6 {
 .grid-container1 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 80px;
+  gap: 50px;
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -346,8 +344,8 @@ container_6 {
   background: white;
   border-radius: 10px;
   display: inline-flex;
-  height: 290px;
-  width: 210px;
+  height: 300px;
+  width: 200px;
   margin-top: 60 px;
   justify-content: flex-start;
 }
@@ -370,6 +368,17 @@ container_6 {
 
 .tag {
   text-align: center;
+}
+
+.bawah img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: white;
 }
 
 .h1_footer {
@@ -411,8 +420,4 @@ container_6 {
 
 .mb-3 {
   color: #fff;
-}
-
-.foot-text {
-  background-color: #016a70;
 }
