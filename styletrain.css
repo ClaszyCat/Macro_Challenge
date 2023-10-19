@@ -371,3 +371,48 @@ container_6 {
 .tag {
   text-align: center;
 }
+
+.h1_footer {
+  margin-bottom: 41px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.a_footer {
+  display: flex;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.col_fot {
+  display: flex;
+  border: #127f85;
+  border-radius: 17.5px;
+  width: auto;
+  height: auto;
+}
+
+.small_font {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.footer_display {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.mb-3 {
+  color: #fff;
+}
+
+.foot-text {
+  background-color: #016a70;
+}

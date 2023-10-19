@@ -19,18 +19,17 @@
   background-color: #016a70;
 }
 
-body {
-  background-color: #016a70;
+.white {
+  background-color: #fff;
 }
 
-.section {
+body {
   background-color: #016a70;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(134, 110, 110); */
   border-radius: 20px;
 }
 
@@ -92,74 +91,65 @@ a {
   height: 36px;
 }
 
-.button-detail {
+.container1 {
   display: flex;
-  padding: 8px 20px;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 10px;
-  border: 2px solid var(--White, #fff);
-  background-color: #016a70;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
-.about {
-  width: 458px;
-  height: 621px;
-  display: flex;
-  margin: auto;
-  margin-bottom: 60px;
-}
-
-.about2 {
-  width: 458px;
-  height: 621px;
-  display: flex;
-  margin: auto;
+.satu {
+  height: 100vh;
+  margin-right: 120px;
 }
 
 .content-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.white-font {
+  font-weight: bold;
   color: white;
+  margin: auto;
 }
 
-.green-font {
+.content-1 h1 {
+  margin: 50px 0;
+}
+
+::placeholder {
+  color: salmon;
+  font-weight: 500;
+  position: absolute;
+  font-size: 24px;
+  top: 20px;
+  left: 20px;
+}
+
+.col-3 {
+  text-align: right;
+  width: 50%;
+}
+
+textarea {
+  font-size: 24px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 800px;
+  height: 500px;
+  border: none;
+  outline-color: #016a70;
+}
+
+.kirim {
+  margin-top: 20px;
+  width: 100px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 20px;
   color: #016a70;
+  font-weight: 600;
+  border: none;
 }
 
-.green-fonts {
-  color: #016a70;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.cream-fonts {
-  color: var(--Cream, #ffd);
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-#folks {
-  font-size: 28px;
-}
-
-#lorem {
-  font-size: 16px;
-}
-
-.container2 {
-  background-color: #ffffff;
-  padding: 100px;
+.kirim:hover {
+  opacity: 90%;
 }
 
 .h1_footer {
